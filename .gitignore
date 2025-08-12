@@ -1,0 +1,35 @@
+# 全局规则
+*.log
+node_modules/
+.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+*.bat
+*.exe
+lombok.config
+.vscode/
+.idea/
+
+# Vite
+/dist
+.vite/
+.env.*
+!.env.example
+!.env.production
+
+# Spring Boot
+/target/
+!src/main/resources/static/
+!src/main/resources/public/
+
+# IDE
+*.iml
+out/
+run/
+
+# 安全强化
+*.env
+*.env.*
+!.env.example
